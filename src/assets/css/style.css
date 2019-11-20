@@ -1,0 +1,50 @@
+/* Common */
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Navbar */
+
+div .nav-parent {
+    background-color: #f3f3f3;
+    padding: 10px 30px;
+}
+
+.milestone {
+    background-color: white;
+    color: #fdcd7f;
+    text-decoration: none;
+    padding: 5px 18px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    border: 4px solid #e2e2e2;
+  }
+    
+  .milestone .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 8px;
+    border-radius: 50%;
+    background-color: #ec3236;
+    color: white;
+  }
+
+  .milestone-count {
+      font-size: 1.5em;
+      font-weight: bold;
+  }
+
+  .milestone-label {
+      font-size: 0.7em;
+  }
+
+  .divider-vertical {
+    height: 50px;                   
+    border-left: 1px solid gray;     
+    float: left;                     
+    opacity: 0.5;
+    margin: 0px 20px;
+  }
