@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import products from './modules/products'
+import calendar from './modules/calendar'
 
 Vue.use(Vuex)
 
@@ -8,7 +8,7 @@ const debug = process.env.NODE_ENV !== 'production'
 
 export default new Vuex.Store({
     modules: {
-        products
+        calendar
     },
     strict: debug
 })

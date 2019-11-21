@@ -1,14 +1,13 @@
-// Instead of using web.php router, using Vue router in order to create SPA(Single Page Application)
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Products from '@/views/dashboards/ProductComponent.vue'
-import Calendar from '@/views/dashboards/CalendarComponent.vue'
+import Calendar from '@/components/MainContent.vue'
+import Products from '@/components/ProductComponent.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-    { path: '/products', component: Products },
     { path: '/', component: Calendar },
+    { path: '/products', component: Products },
 ]
 
 const router = new VueRouter({

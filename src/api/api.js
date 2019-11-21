@@ -1,14 +1,14 @@
 import axios from 'axios';
 
-let api = 'https://1f8581cf-55be-41f3-ad1d-65728e49de28.mock.pstmn.io';
+let api = 'https://www.mockable.io/a/#/space/demo2797543/rest/VZppe8AAA';
 
 export default {
-    fetchProducts() {
-        return axios.get(api + '/products')
-            .then(res => {
-                return res.data
-            }).catch(err => {
-                console.log(err)
-            })
+    fetchEvents() {
+        return axios.get(api + '/events')
+        .then(res => {
+            return res.data
+        }).catch(err => {
+            console.log(err)
+        })
     }
 }
