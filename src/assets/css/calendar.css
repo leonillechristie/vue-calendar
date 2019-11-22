@@ -89,7 +89,7 @@
 }
 
 .currentMonth {
-  padding: 5px;
+  padding: 15px;
   border-radius: 50%;
   color: white;
   background: #60beec;
@@ -100,4 +100,10 @@
   border-radius: 50%;
   color: white!important;
   background: #60beec;
+}
+
+#cal-year {
+  color: #60beec; 
+  position: absolute;
+  font-size: 0.8em;
 }

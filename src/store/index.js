@@ -8,7 +8,7 @@ const debug = process.env.NODE_ENV !== 'production'
 
 export default new Vuex.Store({
     modules: {
-        calendar
+        calendar: calendar
     },
     strict: debug
 })

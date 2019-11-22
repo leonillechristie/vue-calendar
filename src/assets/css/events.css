@@ -1,0 +1,43 @@
+#events-table {
+  font-size: 0.7em;
+  color: #7b7b7b;
+}
+
+th {
+  width: 30px;
+}
+
+.calendar-time span {
+  font-size: 12px;
+}
+.event-none {
+  background-color: white;
+}
+.event-a {
+  background-color: #b8a7eb;
+  border: none;
+}
+.event-a span {
+  color: white;
+  font-size: 15px;
+}
+.event-b {
+  background-color: #60beec;
+  border: none;
+}
+.event-b span {
+  color: white;
+  font-size: 15px;
+}
+.event-c {
+  background-color: #FFD863;
+  border: none;
+}
+.event-c span {
+  color: white;
+  font-size: 15px;
+}
+
+.event-detail {
+  font-size: 1em!important;
+}

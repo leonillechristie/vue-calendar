@@ -1,27 +1,25 @@
 <template>
   <div>
-    <main>
       <Navbar />
       <div class="daysOfTheWeek row mx-auto my-3 d-flex justify-content-center">
         <h5 v-for="item in items" class="mx-5 daysHeader">
-        {{ item.day }}
+          {{ item.day }}
         </h5>
       </div>
 
       <div class="container-fluid row">
-            <div class="col-lg-3">
-              <Charts/>
-            </div>
+        <div class="col-lg-3 m-auto">
+          <Charts/>
+        </div>
 
-            <div class="col-lg-6">
-              <Calendar/>
-            </div>
+        <div class="col-lg-6 m-auto">
+          <Calendar/>
+        </div>
 
-            <div class="col-lg-3">
-              <Events/>
-            </div>
+        <div class="col-lg-3 m-auto">
+          <Events/>
+        </div>
       </div>
-    </main>
   </div>
 </template>
 
@@ -39,9 +37,9 @@ export default {
     Events
   },
   computed: { },
-  data(){
+  data() {
     return {
-     items: [
+      items: [
       { day: 'SUN' },
       { day: 'MON' },
       { day: 'TUE' },
@@ -49,22 +47,15 @@ export default {
       { day: 'THU' },
       { day: 'FRI' },
       { day: 'SAT' }
-    ]
+      ]
     }
   }
 }
 </script>
 
-<style>
-  @import './assets/css/style.css';
-  @import './assets/css/calendar.css';
-
-  .daysOfTheWeek {
-    border-bottom: solid 1px #e3e3e4;
-    background-color: #fbfbfd;
-  }
-
-  .daysHeader {
-    color: #7f7f80;
-  }
+<style style="scss">
+@import './assets/css/style.css';
+@import './assets/css/navbar.css';
+@import './assets/css/calendar.css';
+@import './assets/css/events.css';
 </style>

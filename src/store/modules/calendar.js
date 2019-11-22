@@ -5,17 +5,19 @@ const state = {
 }
 
 const getters = {
+    allEvents() {
+        return state.events;
+    }
 }
  
 // actions
 const actions = {
-    fetchEvents({ commit }) {
-    return api.fetchEvents()
-        .then(events => {
-            console.log(events.items)
-            commit('setEvents', events.items)
-        })
-    }
+    fetchEvents(context) {
+        api.fetchEvents()
+            .then(events => {
+                context.commit('setEvents', events)
+            })
+    },
 }
 
 // mutations
