@@ -7,7 +7,6 @@ export default {
     fetchEvents() {
         return axios.get(api)
         .then(res => {
-            console.log(res.data.results)
             return res.data.results
         }).catch(err => {
             console.log(err)
