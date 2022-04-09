@@ -16,7 +16,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "axios": "^0.18.1",
     "bootstrap-vue": "^2.0.0-rc.16",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "style-loader": "^1.0.0",
     "vue": "^2.5.2",
     "vue-axios": "^2.1.4",
